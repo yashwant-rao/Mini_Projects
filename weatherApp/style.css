@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    height: 95vh;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background: linear-gradient(135deg , #00feba ,#5b548a);
+    color: #fff;
+    /* margin: 10vh 35% ; */
+    max-width: fit-content;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 2px solid black;
+    
+}
+
+form {
+    display: flex;
+    padding: 0.7rem;
+    margin: 1rem;
+}
+
+form input {
+    border: none;
+    height: 3rem;
+    width: 90%;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    margin-right: 2rem;
+   background-color: rgba(255, 229, 196,0.9);
+}
+
+form div {
+    background-color: rgba(255, 229, 196,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    font-size: large;
+
+}
+
+.img {
+    height: 12vh;
+    align-content: center;
+    text-align: center;
+    padding-bottom:1rem ;
+}
+.img i {
+    font-size: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.description {
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.description .temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 0.5rem;
+}
+
+.description .city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+.description .others {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin: 1rem;
+    /* border: 2px solid black; */
+
+}
+.humidity {
+    display: flex;
+    gap: 0.3rem;
+}
+.windspeed {
+    display: flex;
+}
+
+.name {
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.icon i {
+    height: 1.3rem;
+
+}
