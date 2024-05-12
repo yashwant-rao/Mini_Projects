@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ body {
+    background-color: rgba(23, 23, 134, 0.616);
+    height: 100vh;
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .main {
+    width: 50%;
+    height: fit-content;
+    border: 2px solid black;
+    padding: 3rem;
+    background: linear-gradient(215deg ,#e38aebc5,#e3e63dda);
+    border-radius: 3rem;
+ }
+
+ .white {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom:1rem ;
+    
+    /* margin-bottom: 1rem; */
+ }
+
+ .green {
+    color: rgba(27, 192, 27, 0.884);
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom:1rem ;
+    
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 0.8rem; 
+    /* border-bottom: 2px solid  rgba(27, 192, 27, 0.884) ; */
+ }
+
+ .passwordBox {
+    position: relative;
+    background-color: white;
+    height: 3rem;
+    width: 50%;
+    /* margin-bottom: 1rem ; */
+    /* display: inline; */
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+ }
+
+ .passwordBox .password {
+
+    color: black;
+    padding: 0.5rem;
+ }
+
+ .passwordBox i{
+    font-size: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 40%;
+    
+ }
+
+ .button {
+    background-color: rgba(27, 192, 27, 0.884) ;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 3rem;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 3rem;
+ }
+
+ .button button {
+    font-size: 2rem;
+    font-weight: 600;
+    background: transparent;
+    padding-left: 0.5rem;
+    border: none;
+ }
+
+ .button i {
+    font-size: 2rem;
+    font-weight: 600;
+ }
+
