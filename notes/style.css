@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* border: none; */
+}
+
+body{
+    background: linear-gradient(95deg,rgba(238, 156, 238, 0.884),rgba(148, 148, 236, 0.863));
+}
+
+.main{
+    margin:  2vh 10%;
+    padding: 5%;
+    min-width: 40%;
+    width: fit-content;
+    height: fit-content;
+    /* border:  2px solid black; */
+
+}
+.header{
+    height: 4rem;
+    display: flex;
+    padding:  1rem 0.3rem;
+    margin:  1rem 0;
+    justify-content: flex-start ;
+    align-items: center;
+    gap: 0.7rem;
+    /* border:  2px solid rgba(125, 113, 235, 0.719); */
+}
+
+.header i {
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 2rem;
+    /* border:  2px solid black; */
+}
+
+.buttonArea{
+    display: flex;
+    height: 2.8rem;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 0.5rem;
+    width:fit-content;
+    padding: 1.5rem ;
+    margin: 1rem 0;
+    border-radius: 2rem;
+    background-color: blueviolet;
+    /* border:  2px solid black; */
+}
+
+.note {
+    position: relative;
+    height: fit-content;
+    min-height: 6rem;
+    width: 90%;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem; 
+    /* border:  2px solid black; */
+}
+
+.note .content {
+    color: #1f1e1e;
+    width: 100%;
+    height: 100%;
+   padding-left: 0.5rem;
+   padding-top: 0.5rem;
+   border: none;
+   font-size: 0.9rem;
+   outline: none;
+   text-transform: capitalize;
+   /* border:  2px solid black; */
+}
+
+.note .content:default{
+    border: none;
+}
+
+.note i {
+    font-size: large;
+    color: rgb(105, 100, 100);
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.2rem;
+    /* border:  2px solid black; */
+}
+
